@@ -1,16 +1,16 @@
 name: Update gist with WakaTime summary
 on:
   schedule:
-    - cron: '40 1 * * *'
-  workflow_dispatch:
-    inputs:
-      logLevel:
-        description: 'Log level' 
-        required: false
-        default: 'warning'
-      tags:
-        description: 'Test scenario tags' 
-        required: false
+    - cron: '50 2 * * *'
+  # workflow_dispatch:
+  #   inputs:
+  #     logLevel:
+  #       description: 'Log level' 
+  #       required: false
+  #       default: 'warning'
+  #     tags:
+  #       description: 'Test scenario tags' 
+  #       required: false
 jobs:
   update-gist:
     runs-on: ubuntu-latest
