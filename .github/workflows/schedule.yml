@@ -1,7 +1,7 @@
 name: Update gist with WakaTime summary
 on:
   schedule:
-    - cron: '50 2 * * *'
+    - cron: '56 2 * * *'
   # workflow_dispatch:
   #   inputs:
   #     logLevel:
